@@ -1,0 +1,229 @@
+.choose-service,
+.choose-service * {
+  box-sizing: border-box;
+}
+.registration-parent {
+  border: 2px solid #000;
+  background-color: lightgray;
+  box-shadow: 2px solid black;
+  height: 150;
+  width: 240;
+  margin: auto;
+  padding: 2%;
+  color: white;
+}
+.choose-service {
+  background: var(--white, #ffffff);
+  width: 100%;
+  height: 812px;
+  position: relative;
+  overflow: hidden;
+  .logo {
+    color: var(--almost-black, #181818);
+    text-align: center;
+    font: var(--medium-title, 700 19px 'Raleway', sans-serif);
+    position: absolute;
+    left: calc(50% - 32.5px);
+    top: 61.05px;
+  }
+  .state {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    left: calc(50% - 22.5px);
+    top: 135px;
+  }
+  .line {
+    background: var(--primary, #fdccc5);
+    border-radius: 20px;
+    flex-shrink: 0;
+    width: 50px;
+    height: 10px;
+    position: relative;
+    transform-origin: 0 0;
+    transform: rotate(-180deg) scale(1, 1);
+  }
+  .dot {
+    background: var(--light-grey, #d9d9d9);
+    border-radius: 50%;
+    flex-shrink: 0;
+    width: 10px;
+    height: 10px;
+    position: relative;
+    transform-origin: 0 0;
+    transform: rotate(-180deg) scale(1, 1);
+  }
+  .text {
+    color: var(--secondary, #3f3f3f);
+    text-align: center;
+    font:
+      600 24px/136.34% 'Raleway',
+      sans-serif;
+    position: absolute;
+    left: calc(50% - 133.5px);
+    top: 193px;
+  }
+  .actions {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 271px;
+    position: absolute;
+    left: calc(50% - 135.5px);
+    top: 699px;
+  }
+  .button {
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 271px;
+    height: 54px;
+    position: relative;
+  }
+  .skip {
+    color: var(--primary, #fdccc5);
+    text-align: center;
+    font:
+      700 16px 'Raleway',
+      sans-serif;
+    text-decoration: underline;
+    position: relative;
+  }
+  .list-container-beauty-services {
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 308px;
+    position: absolute;
+    left: calc(50% - 153.5px);
+    top: 293px;
+  }
+  .row-1 {
+    display: flex;
+    flex-direction: row;
+    gap: 43px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 301px;
+    height: 128px;
+    position: relative;
+  }
+  .circular-services {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 132.27px;
+    position: relative;
+  }
+  .rectangle-2 {
+    background: linear-gradient(to left, #c4c4c4, #c4c4c4);
+    border-radius: 5px;
+    flex-shrink: 0;
+    width: 125.16px;
+    height: 125.16px;
+    position: relative;
+  }
+  .nail {
+    color: var(--dark-dark-0, #1c1c28);
+    text-align: center;
+    font:
+      500 18px 'Raleway',
+      sans-serif;
+    position: relative;
+  }
+  .circular-services2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 129.64px;
+    position: relative;
+  }
+  .rectangle-22 {
+    background: linear-gradient(to left, #c4c4c4, #c4c4c4);
+    border-radius: 10px;
+    flex-shrink: 0;
+    width: 122.67px;
+    height: 122.67px;
+    position: relative;
+  }
+  .eyebrowns {
+    color: var(--dark-dark-0, #1c1c28);
+    text-align: center;
+    font:
+      500 18px 'Raleway',
+      sans-serif;
+    position: relative;
+  }
+  .row-2 {
+    display: flex;
+    flex-direction: row;
+    gap: 43px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 305px;
+    height: 128px;
+    position: relative;
+  }
+  .rectangle-23 {
+    background: linear-gradient(to left, #c4c4c4, #c4c4c4);
+    border-radius: 10px;
+    flex-shrink: 0;
+    width: 125.16px;
+    height: 125.16px;
+    position: relative;
+  }
+  .massage {
+    color: var(--dark-dark-0, #1c1c28);
+    text-align: center;
+    font:
+      500 18px 'Raleway',
+      sans-serif;
+    position: relative;
+  }
+  .circular-services3 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 132.55px;
+    position: relative;
+  }
+  .rectangle-24 {
+    background: linear-gradient(to left, #c4c4c4, #c4c4c4);
+    border-radius: 10px;
+    flex-shrink: 0;
+    width: 125.43px;
+    height: 125.43px;
+    position: relative;
+  }
+  .hair {
+    color: var(--dark-dark-0, #1c1c28);
+    text-align: center;
+    font:
+      500 18px 'Raleway',
+      sans-serif;
+    position: relative;
+  }
+}

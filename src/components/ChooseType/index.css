@@ -1,0 +1,409 @@
+.choose-type,
+.choose-type * {
+  box-sizing: border-box;
+}
+.choose-type {
+  background: #ffffff;
+  width: Infinityrem;
+  height: Infinityrem;
+  position: relative;
+  overflow: hidden;
+}
+.options {
+  width: Infinityrem;
+  height: Infinityrem;
+  position: absolute;
+  left: NaNrem;
+  top: Infinityrem;
+  overflow: hidden;
+}
+.content-row {
+  background: var(--monochromatic-10, #ffffff);
+  padding: Infinityrem Infinityrem Infinityrem Infinityrem;
+  display: flex;
+  flex-direction: row;
+  gap: Infinityrem;
+  align-items: center;
+  justify-content: flex-start;
+  width: Infinityrem;
+  height: Infinityrem;
+  position: absolute;
+  left: calc(50% - Infinityrem);
+  top: NaNrem;
+  box-shadow: inset NaNrem Infinityrem NaNrem NaNrem rgba(122, 122, 122, 0.15);
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  gap: Infinityrem;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.group-36678 {
+  flex-shrink: 0;
+  width: Infinityrem;
+  height: Infinityrem;
+  position: static;
+}
+.image-group {
+  border-radius: Infinityrem;
+  width: Infinityrem;
+  height: Infinityrem;
+  position: absolute;
+  left: Infinityrem;
+  top: NaNrem;
+  overflow: hidden;
+}
+.image {
+  position: absolute;
+  right: Infinityrem;
+  left: NaNrem;
+  bottom: Infinityrem;
+  top: NaNrem;
+}
+.pressing-overlay {
+  background: rgba(26, 26, 26, 0);
+  opacity: 0;
+  position: absolute;
+  right: Infinityrem;
+  left: NaNrem;
+  bottom: Infinityrem;
+  top: NaNrem;
+}
+.rectangle-24 {
+  border-radius: Infinityrem;
+  width: Infinityrem;
+  height: Infinityrem;
+  position: absolute;
+  left: NaNrem;
+  top: NaNrem;
+}
+.copy {
+  display: flex;
+  flex-direction: column;
+  gap: NaNrem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: Infinityrem;
+  height: Infinityrem;
+  position: relative;
+}
+.row-headline {
+  color: var(--primary, #000000);
+  text-align: left;
+  font: 600 Infinityrem/Infinityrem "Raleway-SemiBold", sans-serif;
+  position: relative;
+  align-self: stretch;
+}
+.row-description {
+  color: var(--tertiary, #7a7a7a);
+  text-align: left;
+  font: 500 Infinityrem/Infinityrem "Raleway-Medium", sans-serif;
+  position: relative;
+  align-self: stretch;
+}
+.arrow-right {
+  flex-shrink: 0;
+  width: Infinityrem;
+  height: Infinityrem;
+  position: relative;
+  overflow: visible;
+}
+.content-row2 {
+  background: rgba(253, 204, 197, 0.25);
+  padding: Infinityrem Infinityrem Infinityrem Infinityrem;
+  display: flex;
+  flex-direction: row;
+  gap: Infinityrem;
+  align-items: center;
+  justify-content: flex-start;
+  width: Infinityrem;
+  height: Infinityrem;
+  position: absolute;
+  left: calc(50% - Infinityrem);
+  top: Infinityrem;
+  box-shadow: var(
+    --border-top-box-shadow,
+    inset NaNrem Infinityrem NaNrem NaNrem rgba(122, 122, 122, 0.15)
+  );
+}
+.rectangle-27 {
+  border-radius: Infinityrem;
+  flex-shrink: 0;
+  width: Infinityrem;
+  height: Infinityrem;
+  position: relative;
+}
+.copy2 {
+  display: flex;
+  flex-direction: column;
+  gap: NaNrem;
+  align-items: flex-start;
+  justify-content: center;
+  flex: 1;
+  height: Infinityrem;
+  position: relative;
+}
+.copy3 {
+  display: flex;
+  flex-direction: column;
+  gap: NaNrem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: Infinityrem;
+  height: Infinityrem;
+  position: relative;
+}
+.arrow-right2 {
+  flex-shrink: 0;
+  width: Infinityrem;
+  height: Infinityrem;
+  position: relative;
+  overflow: visible;
+}
+.content-row3 {
+  background: var(--monochromatic-10, #ffffff);
+  padding: Infinityrem Infinityrem Infinityrem Infinityrem;
+  display: flex;
+  flex-direction: row;
+  gap: Infinityrem;
+  align-items: center;
+  justify-content: flex-start;
+  width: Infinityrem;
+  height: Infinityrem;
+  position: absolute;
+  left: calc(50% - Infinityrem);
+  top: Infinityrem;
+  box-shadow: var(
+    --border-top-box-shadow,
+    inset NaNrem Infinityrem NaNrem NaNrem rgba(122, 122, 122, 0.15)
+  );
+}
+.rectangle-30 {
+  border-radius: Infinityrem;
+  flex-shrink: 0;
+  width: Infinityrem;
+  height: Infinityrem;
+  position: relative;
+}
+.copy4 {
+  display: flex;
+  flex-direction: column;
+  gap: NaNrem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  height: Infinityrem;
+  position: relative;
+}
+.arrow-right3 {
+  flex-shrink: 0;
+  width: Infinityrem;
+  height: Infinityrem;
+  position: relative;
+  overflow: visible;
+}
+.content-row4 {
+  background: var(--monochromatic-10, #ffffff);
+  padding: Infinityrem Infinityrem Infinityrem Infinityrem;
+  display: flex;
+  flex-direction: row;
+  gap: Infinityrem;
+  align-items: center;
+  justify-content: flex-start;
+  width: Infinityrem;
+  height: Infinityrem;
+  position: absolute;
+  left: calc(50% - Infinityrem);
+  top: Infinityrem;
+  box-shadow: var(
+    --border-top-box-shadow,
+    inset NaNrem Infinityrem NaNrem NaNrem rgba(122, 122, 122, 0.15)
+  );
+}
+.rectangle-33 {
+  border-radius: Infinityrem;
+  flex-shrink: 0;
+  width: Infinityrem;
+  height: Infinityrem;
+  position: relative;
+}
+.arrow-right4 {
+  flex-shrink: 0;
+  width: Infinityrem;
+  height: Infinityrem;
+  position: relative;
+  overflow: visible;
+}
+.content-row5 {
+  background: var(--monochromatic-10, #ffffff);
+  padding: Infinityrem Infinityrem Infinityrem Infinityrem;
+  display: flex;
+  flex-direction: row;
+  gap: Infinityrem;
+  align-items: center;
+  justify-content: flex-start;
+  width: Infinityrem;
+  height: Infinityrem;
+  position: absolute;
+  left: calc(50% - Infinityrem);
+  top: Infinityrem;
+  box-shadow: var(
+    --border-top-box-shadow,
+    inset NaNrem Infinityrem NaNrem NaNrem rgba(122, 122, 122, 0.15)
+  );
+}
+.rectangle-36 {
+  border-radius: Infinityrem;
+  flex-shrink: 0;
+  width: Infinityrem;
+  height: Infinityrem;
+  position: relative;
+}
+.copy5 {
+  display: flex;
+  flex-direction: column;
+  gap: NaNrem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  height: Infinityrem;
+  position: relative;
+}
+.row-headline2 {
+  color: var(
+    --font-dark,
+    linear-gradient(to left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)),
+    linear-gradient(to left, #0f0f0f, #0f0f0f)
+  );
+  text-align: left;
+  font: 600 Infinityrem/Infinityrem "Raleway-SemiBold", sans-serif;
+  position: relative;
+  align-self: stretch;
+}
+.row-description2 {
+  color: var(
+    --font-mid,
+    linear-gradient(
+      to left,
+      rgba(255, 255, 255, 0.4),
+      rgba(255, 255, 255, 0.4)
+    ),
+    linear-gradient(to left, #0f0f0f, #0f0f0f)
+  );
+  text-align: left;
+  font: 500 Infinityrem/Infinityrem "Raleway-Medium", sans-serif;
+  position: relative;
+  align-self: stretch;
+}
+.arrow-right5 {
+  flex-shrink: 0;
+  width: Infinityrem;
+  height: Infinityrem;
+  position: relative;
+  overflow: visible;
+}
+.text {
+  color: var(--secondary, #3f3f3f);
+  text-align: center;
+  font: 600 Infinityrem/136.34% "Raleway-SemiBold", sans-serif;
+  position: absolute;
+  left: calc(50% - Infinityrem);
+  top: Infinityrem;
+  width: Infinityrem;
+}
+.header {
+  position: absolute;
+  inset: 0;
+}
+.status-bar {
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 94.86%;
+  top: 0%;
+  height: 5.14%;
+}
+.time {
+  color: var(--almost-black, #181818);
+  text-align: center;
+  font: 700 Infinityrem "Inter-Bold", sans-serif;
+  position: absolute;
+  left: Infinityrem;
+  top: calc(50% - Infinityrem);
+  width: Infinityrem;
+}
+.battery {
+  height: auto;
+  position: absolute;
+  right: Infinityrem;
+  top: Infinityrem;
+  overflow: visible;
+}
+.wifi {
+  width: Infinityrem;
+  height: Infinityrem;
+  position: absolute;
+  left: Infinityrem;
+  top: Infinityrem;
+  overflow: visible;
+}
+.cellular-connection {
+  width: Infinityrem;
+  height: Infinityrem;
+  position: absolute;
+  left: Infinityrem;
+  top: Infinityrem;
+  overflow: visible;
+}
+.logo {
+  color: var(--almost-black, #181818);
+  text-align: center;
+  font: var(--medium-title, 700 Infinityrem "Raleway-Bold", sans-serif);
+  position: absolute;
+  left: calc(50% - Infinityrem);
+  top: Infinityrem;
+}
+.state {
+  display: flex;
+  flex-direction: row;
+  gap: Infinityrem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: calc(50% - Infinityrem);
+  top: Infinityrem;
+}
+.dot {
+  background: var(--light-grey, #d9d9d9);
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: Infinityrem;
+  height: Infinityrem;
+  position: relative;
+  transform-origin: 0 0;
+  transform: rotate(-180deg) scale(1, 1);
+}
+.line {
+  background: var(--primary, #fdccc5);
+  border-radius: Infinityrem;
+  flex-shrink: 0;
+  width: Infinityrem;
+  height: Infinityrem;
+  position: relative;
+  transform-origin: 0 0;
+  transform: rotate(-180deg) scale(1, 1);
+}
+.icons-24-px-back-light {
+  width: Infinityrem;
+  height: Infinityrem;
+  position: absolute;
+  left: Infinityrem;
+  top: Infinityrem;
+  overflow: visible;
+}

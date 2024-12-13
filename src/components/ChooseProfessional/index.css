@@ -1,0 +1,364 @@
+.choose-professional,
+.choose-professional * {
+  box-sizing: border-box;
+}
+.choose-professional {
+  background: #ffffff;
+  width: Infinityrem;
+  height: Infinityrem;
+  position: relative;
+  overflow: hidden;
+}
+.btn {
+  display: flex;
+  flex-direction: row;
+  gap: Infinityrem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: Infinityrem;
+  position: absolute;
+  left: calc(50% - Infinityrem);
+  top: Infinityrem;
+}
+.button {
+  border-radius: Infinityrem;
+  padding: Infinityrem;
+  display: flex;
+  flex-direction: row;
+  gap: Infinityrem;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: Infinityrem;
+  height: Infinityrem;
+  position: relative;
+}
+.i-don-t-have-a-preference {
+  color: var(--primary, #fdccc5);
+  text-align: center;
+  font: 700 Infinityrem "Raleway-Bold", sans-serif;
+  text-decoration: underline;
+  position: relative;
+}
+.options {
+  width: Infinityrem;
+  height: Infinityrem;
+  position: absolute;
+  left: NaNrem;
+  top: Infinityrem;
+  overflow: hidden;
+}
+.content-row {
+  background: rgba(253, 204, 197, 0.25);
+  padding: Infinityrem Infinityrem Infinityrem Infinityrem;
+  display: flex;
+  flex-direction: row;
+  gap: Infinityrem;
+  align-items: center;
+  justify-content: flex-start;
+  width: Infinityrem;
+  height: Infinityrem;
+  position: absolute;
+  left: calc(50% - Infinityrem);
+  top: NaNrem;
+  box-shadow: inset NaNrem Infinityrem NaNrem NaNrem rgba(122, 122, 122, 0.15);
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  gap: Infinityrem;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.unsplash-pls-f-6-ob-tgms {
+  border-radius: Infinityrem;
+  flex-shrink: 0;
+  width: Infinityrem;
+  height: Infinityrem;
+  position: relative;
+}
+.copy {
+  display: flex;
+  flex-direction: column;
+  gap: NaNrem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: Infinityrem;
+  height: Infinityrem;
+  position: relative;
+}
+.row-headline {
+  color: var(--primary, #000000);
+  text-align: left;
+  font: 600 Infinityrem/Infinityrem "Raleway-SemiBold", sans-serif;
+  position: relative;
+  align-self: stretch;
+}
+.row-description {
+  color: var(--tertiary, #7a7a7a);
+  text-align: left;
+  font: 500 Infinityrem/Infinityrem "Raleway-Medium", sans-serif;
+  position: relative;
+  align-self: stretch;
+}
+.group-16 {
+  flex-shrink: 0;
+  width: Infinityrem;
+  height: Infinityrem;
+  position: static;
+}
+._5-0 {
+  color: var(--primary, #000000);
+  text-align: center;
+  font: 500 Infinityrem "Raleway-Medium", sans-serif;
+  position: absolute;
+  left: Infinityrem;
+  top: Infinityrem;
+}
+.star-filled {
+  width: Infinityrem;
+  height: Infinityrem;
+  position: absolute;
+  left: Infinityrem;
+  top: Infinityrem;
+}
+.content-row2 {
+  background: var(--monochromatic-10, #ffffff);
+  padding: Infinityrem Infinityrem Infinityrem Infinityrem;
+  display: flex;
+  flex-direction: row;
+  gap: Infinityrem;
+  align-items: center;
+  justify-content: flex-start;
+  width: Infinityrem;
+  height: Infinityrem;
+  position: absolute;
+  left: calc(50% - Infinityrem);
+  top: Infinityrem;
+  box-shadow: var(
+    --border-top-box-shadow,
+    inset NaNrem Infinityrem NaNrem NaNrem rgba(122, 122, 122, 0.15)
+  );
+}
+.content2 {
+  display: flex;
+  flex-direction: row;
+  gap: Infinityrem;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: Infinityrem;
+  position: relative;
+}
+.rectangle-27 {
+  border-radius: Infinityrem;
+  flex-shrink: 0;
+  width: Infinityrem;
+  height: Infinityrem;
+  position: relative;
+}
+.copy2 {
+  display: flex;
+  flex-direction: column;
+  gap: NaNrem;
+  align-items: flex-start;
+  justify-content: center;
+  flex: 1;
+  height: Infinityrem;
+  position: relative;
+}
+.copy3 {
+  display: flex;
+  flex-direction: column;
+  gap: NaNrem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: Infinityrem;
+  height: Infinityrem;
+  position: relative;
+}
+._4-9 {
+  color: var(--primary, #000000);
+  text-align: center;
+  font: 500 Infinityrem "Raleway-Medium", sans-serif;
+  position: absolute;
+  left: Infinityrem;
+  top: Infinityrem;
+}
+.star-filled2 {
+  width: Infinityrem;
+  height: Infinityrem;
+  position: absolute;
+  left: Infinityrem;
+  top: Infinityrem;
+}
+.content-row3 {
+  background: #ffffff;
+  padding: Infinityrem Infinityrem Infinityrem Infinityrem;
+  display: flex;
+  flex-direction: row;
+  gap: Infinityrem;
+  align-items: center;
+  justify-content: flex-start;
+  width: Infinityrem;
+  height: Infinityrem;
+  position: absolute;
+  left: calc(50% - Infinityrem);
+  top: Infinityrem;
+  box-shadow: var(
+    --border-top-box-shadow,
+    inset NaNrem Infinityrem NaNrem NaNrem rgba(122, 122, 122, 0.15)
+  );
+}
+.content3 {
+  display: flex;
+  flex-direction: row;
+  gap: Infinityrem;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: Infinityrem;
+  position: relative;
+}
+.unsplash-nk-wnc-w-gp-8 {
+  border-radius: Infinityrem;
+  flex-shrink: 0;
+  width: Infinityrem;
+  height: Infinityrem;
+  position: relative;
+}
+.copy4 {
+  display: flex;
+  flex-direction: column;
+  gap: NaNrem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  height: Infinityrem;
+  position: relative;
+}
+.rectangle-30 {
+  border-radius: Infinityrem;
+  flex-shrink: 0;
+  width: Infinityrem;
+  height: Infinityrem;
+  position: relative;
+}
+.group-36679 {
+  flex-shrink: 0;
+  width: Infinityrem;
+  height: Infinityrem;
+  position: static;
+}
+._4-92 {
+  color: var(--primary, #000000);
+  text-align: center;
+  font: 500 Infinityrem "Raleway-Medium", sans-serif;
+  position: absolute;
+  left: Infinityrem;
+  top: Infinityrem;
+}
+.text {
+  color: var(--secondary, #3f3f3f);
+  text-align: center;
+  font: 600 Infinityrem/136.34% "Raleway-SemiBold", sans-serif;
+  position: absolute;
+  left: calc(50% - Infinityrem);
+  top: Infinityrem;
+  width: Infinityrem;
+}
+.header {
+  position: absolute;
+  inset: 0;
+}
+.status-bar {
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 94.58%;
+  top: 0%;
+  height: 5.42%;
+}
+.time {
+  color: var(--almost-black, #181818);
+  text-align: center;
+  font: 700 Infinityrem "Inter-Bold", sans-serif;
+  position: absolute;
+  left: Infinityrem;
+  top: calc(50% - Infinityrem);
+  width: Infinityrem;
+}
+.battery {
+  height: auto;
+  position: absolute;
+  right: Infinityrem;
+  top: Infinityrem;
+  overflow: visible;
+}
+.wifi {
+  width: Infinityrem;
+  height: Infinityrem;
+  position: absolute;
+  left: Infinityrem;
+  top: Infinityrem;
+  overflow: visible;
+}
+.cellular-connection {
+  width: Infinityrem;
+  height: Infinityrem;
+  position: absolute;
+  left: Infinityrem;
+  top: Infinityrem;
+  overflow: visible;
+}
+.logo {
+  color: var(--almost-black, #181818);
+  text-align: center;
+  font: var(--medium-title, 700 Infinityrem "Raleway-Bold", sans-serif);
+  position: absolute;
+  left: calc(50% - Infinityrem);
+  top: Infinityrem;
+}
+.state {
+  display: flex;
+  flex-direction: row;
+  gap: Infinityrem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: calc(50% - Infinityrem);
+  top: Infinityrem;
+}
+.dot {
+  background: var(--light-grey, #d9d9d9);
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: Infinityrem;
+  height: Infinityrem;
+  position: relative;
+  transform-origin: 0 0;
+  transform: rotate(-180deg) scale(1, 1);
+}
+.line {
+  background: var(--primary, #fdccc5);
+  border-radius: Infinityrem;
+  flex-shrink: 0;
+  width: Infinityrem;
+  height: Infinityrem;
+  position: relative;
+  transform-origin: 0 0;
+  transform: rotate(-180deg) scale(1, 1);
+}
+.icons-24-px-back-light {
+  width: Infinityrem;
+  height: Infinityrem;
+  position: absolute;
+  left: Infinityrem;
+  top: Infinityrem;
+  overflow: visible;
+}

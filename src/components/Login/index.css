@@ -1,0 +1,191 @@
+.login-phone-number,
+.login-phone-number * {
+  box-sizing: border-box;
+}
+.login-phone-number {
+  background: #ffffff;
+  width: 100%;
+  height: 852px;
+  position: relative;
+  overflow: hidden;
+  .btn {
+  background: var(--primary, #fdccc5);
+  border-radius: 10px;
+  padding: 17px 152px 17px 152px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 271px;
+  height: 61px;
+  position: absolute;
+  left: calc(50% - 135.5px);
+  top: 440px;
+}
+.button {
+  color: var(--white, #ffffff);
+  text-align: center;
+  font: 700 16px/125% "Inter-Bold", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text-field {
+  position: absolute;
+  top: 10%
+}
+.phone-number {
+  width: 333px;
+  height: 41px;
+  position: static;
+}
+.line-24 {
+  border-style: solid;
+  border-color: var(--stroke, #cdcdcd);
+  border-width: 1px 0 0 0;
+  width: 333px;
+  height: 0px;
+  position: absolute;
+  left: 30px;
+  top: 384px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+._55 {
+  color: var(--primary, #000000);
+  text-align: left;
+  font: 500 16px/125% "Raleway-Medium", sans-serif;
+  position: absolute;
+  left: 30px;
+  top: 346px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+._00-0-0000-0000 {
+  color: var(--tertiary, #7a7a7a);
+  text-align: left;
+  font: 500 16px/125% "Raleway-Medium", sans-serif;
+  position: absolute;
+  left: 92px;
+  top: 346px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.line-25 {
+  border-style: solid;
+  border-color: #d8dadc;
+  border-width: 1px 0 0 0;
+  width: 26px;
+  height: 0px;
+  position: absolute;
+  left: 78px;
+  top: 343px;
+  transform-origin: 0 0;
+  transform: rotate(90deg) scale(1, 1);
+}
+.country {
+  width: 333px;
+  height: 56px;
+  position: static;
+}
+.line-22 {
+  border-style: solid;
+  border-color: var(--stroke, #cdcdcd);
+  border-width: 1px 0 0 0;
+  width: 333px;
+  height: 0px;
+  position: absolute;
+  left: 30px;
+  top: 272px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.line-23 {
+  width: 333px;
+  height: 0px;
+  position: absolute;
+  left: 30px;
+  top: 328px;
+  transform: translate(0px, -0.5px);
+  overflow: visible;
+}
+.brazil {
+  color: var(--primary, #000000);
+  text-align: left;
+  font: 500 16px/125% "Raleway-Medium", sans-serif;
+  position: absolute;
+  left: 78px;
+  top: 290px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.brazil-br {
+  width: 30px;
+  height: 22.5px;
+  position: absolute;
+  left: 31px;
+  top: 289px;
+  overflow: hidden;
+}
+.group {
+  height: auto;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+  overflow: visible;
+}
+.please-confirm-your-country-code-and-enter-your-phone-number {
+  color: var(--tertiary, #7a7a7a);
+  text-align: left;
+  font: 500 16px/125% "Raleway-Medium", sans-serif;
+  position: absolute;
+  left: 30px;
+  top: 197px;
+  width: 322px;
+}
+.log-in {
+  color: var(--primary, #000000);
+  text-align: left;
+  font: 700 32px/130% "Raleway-Bold", sans-serif;
+  position: absolute;
+  left: 30px;
+  top: 145px;
+  width: 333px;
+}
+.header {
+  position: relative;
+}
+.logo {
+  color: var(--almost-black, #181818);
+  text-align: center;
+  font: var(--medium-title, 700 19px "Raleway-Bold", sans-serif);
+  position: absolute;
+  left: calc(50% - 34.5px);
+  top: 61.05px;
+}
+.icons-24-px-back-light {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 26px;
+  top: 61px;
+  overflow: visible;
+}
+}
+/* . {
+  width: 49px;
+  height: 14px;
+  position: absolute;
+  left: 39px;
+  top: 180px;
+  overflow: visible;
+} */
